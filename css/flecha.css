@@ -1,0 +1,10 @@
+.flecha{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  z-index: 2;
+  margin: 10px;
+}
+.flecha img{
+    width: 40px;
+}
