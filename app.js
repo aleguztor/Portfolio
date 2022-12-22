@@ -97,7 +97,7 @@ function cambioTextos(){
     }
     if(posicion==2){
         textocajapequeña.innerHTML="Your"
-        textfuera.innerHTML="Trusted <br> <strong>Front End!</strong>"
+        textfuera.innerHTML="Trusted <br>Junior <br> <strong>Front End!</strong>"
     }
     if(posicion==3){
         textocajapequeña.innerHTML="And"

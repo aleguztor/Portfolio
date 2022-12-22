@@ -213,6 +213,7 @@ font-size: 50px;
     
 }
 a{
+    
     height: fit-content;
     width: fit-content;
 }
@@ -245,7 +246,7 @@ a{
 .work:hover{
     cursor: pointer;
     transform: scale(1.1);
-    transition:  300ms;
+    transition: 300ms;
     box-shadow: 19px 19px 0 rgba(0, 0, 0, 0.418) ;
    
 }
@@ -285,13 +286,24 @@ footer{
     box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.418) inset;
     padding-left: 10px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-
+    width: 100%;
+    height: 100%;
 }
 .iconos img {
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
     padding: 5px;
     margin-top: 15px;
+}
+.jobicon{
+    width: 100px;
+    height: 90px;
+}
+.carproyect:hover{
+    text-shadow: 0 0 10px black;
+    background-image: url(../images/gameCar.PNG);
+    background-size: contain;
 }

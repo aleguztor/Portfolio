@@ -141,3 +141,7 @@ footer{
     background-color: white;
     
 }
+
+.iconos{
+ background-color: var(--grisoscuro);
+}
