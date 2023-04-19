@@ -109,8 +109,13 @@ color: var(--grisclaro);
     
      
  }
+ .jobs{
+    background-color: var(--negro);
+ }
 
- 
+ #containerjobs{
+    background-color: var(--negro);
+}
  .work{
     
    

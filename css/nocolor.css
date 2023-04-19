@@ -156,14 +156,14 @@ font-size: 50px;
    
    display: flex;
    flex-direction: column;
-   
+justify-content: space-between;
    align-items: center;
    
     /* align-items: center; */
     box-shadow: 15px 15px 0 rgba(0, 0, 0, 0.418) ;
    width: 350px;
-   height:350px;
- 
+   
+ position: relative;
    padding: 25px;
    margin-left: 20px;
    margin-right: 20px;
@@ -177,6 +177,7 @@ font-size: 50px;
     flex-wrap: wrap;
     justify-content: space-evenly;
     width: 100%;
+    
 }
 .cuadrado img{
     height: 100px;
@@ -184,7 +185,41 @@ font-size: 50px;
     display: flex;
     justify-content: center;
 }
+.jobs{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+/* JOBS */
+#containerjobs{
+   
+    padding-top: 10px;
+    padding-bottom: 20px;
+    gap: 20px;
+    position: relative;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100%;
+    height: 100%;
+   
+}
 
+.containerjob{
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    width: 295px;
+    padding: 15px;
+    height: 100%;
+    box-shadow: 15px 15px 0 rgba(0, 0, 0, 0.418) ;
+}
 
 /* WORKS */
 
@@ -297,6 +332,10 @@ footer{
     height: 80px;
     padding: 5px;
     margin-top: 15px;
+    transition: all 200ms;
+}
+.iconos img:hover {
+    scale: 1.1;
 }
 .jobicon{
     width: 100px;

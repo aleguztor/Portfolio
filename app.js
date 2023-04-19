@@ -97,14 +97,14 @@ function cambioTextos(){
     }
     if(posicion==2){
         textocajapequeña.innerHTML="Your"
-        textfuera.innerHTML="Trusted <br>Junior <br> <strong>Front End!</strong>"
+        textfuera.innerHTML="Trusted <br>Junior <br> <strong>Full Stack!</strong>"
     }
     if(posicion==3){
         textocajapequeña.innerHTML="And"
-        textfuera.innerHTML="I am lookin for <br> <strong>A JOB.</strong>"
+        textfuera.innerHTML="I am currently<br> <strong>working.</strong>"
     }
     if(posicion==4){
         textocajapequeña.innerHTML="I"
-        textfuera.innerHTML="Know <strong>HTML</strong>, <strong> CSS</strong> (with frameworks) and <strong>JS</strong>."
+        textfuera.innerHTML="am <strong>Web</strong>,  and<strong> Mobile </strong>developer."
     }
 }
