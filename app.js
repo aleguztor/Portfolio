@@ -97,7 +97,7 @@ function cambioTextos(){
     }
     if(posicion==2){
         textocajapequeña.innerHTML="Your"
-        textfuera.innerHTML="Trusted <br>Junior <br> <strong>Full Stack!</strong>"
+        textfuera.innerHTML="Trusted  <br> <strong>Full Stack!</strong>"
     }
     if(posicion==3){
         textocajapequeña.innerHTML="And"
